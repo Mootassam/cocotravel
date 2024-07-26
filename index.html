@@ -54,6 +54,60 @@
 	<![endif]-->
 
 	</head>
+
+	<style>
+
+
+.styled-form {
+    background: #f9f9f9; /* Light grey background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-header {
+    margin-bottom: 20px;
+}
+
+.offer-title {
+    font-size: 1.75em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.offer-description {
+    font-size: 1.5em;
+    color: #e74c3c; /* Bright red color */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.offer-note {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background: #3498db; /* Blue color */
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #2980b9; /* Darker blue on hover */
+}
+
+	</style>
 	<body>
 		
 	<div class="gtco-loader"></div>
@@ -107,21 +161,17 @@
 									<div class="tab-content">
 										<div class="tab-content-inner active" data-content="signup">
 											<h3>We are the number 1</h3>
-											<form action="#">
-												<div class="row form-group">
-													<div class="col-md-12">
-														<p><strong><h3>Top Travel Service Provider</h3>
-														</strong></p>
-														<p>Apply for any country with a fantastic 50% discount! Get your complete package for just <span class="highlighted-amount">350 AED</span>!</p>
-														<p>Don’t miss out on this great offer. Book with us now for the best service.</p>
-													</div>
+											<form action="#" class="styled-form">
+												<div class="form-header">
+													<h3 class="offer-title">Apply for Any Country with a Fantastic 50% Discount!</h3>
+													<p class="offer-description">Get your complete package for just <span class="highlighted-amount">350 AED</span>!</p>
+													<p class="offer-note">Don’t miss out on this great offer. Book with us now for the best service.</p>
 												</div>
-												<div class="row form-group">
-													<div class="col-md-12">
-														<input type="submit" class="btn btn-primary btn-block" value="Book Now">
-													</div>
+												<div class="form-footer">
+													<input type="submit" class="btn btn-primary btn-block" value="Book Now">
 												</div>
 											</form>
+											
 										</div>
 									</div>
 								</div>
